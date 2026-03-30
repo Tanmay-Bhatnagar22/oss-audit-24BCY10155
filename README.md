@@ -28,23 +28,24 @@ This project is an shell scripting toolkit focused on Python environment inspect
 1. Open terminal in the project folder.
 2. Make all scripts executable:
 
-  chmod +x script1_system_identity.sh script2_python_inspector.sh script3_env_auditor.sh script4_log_analyzer.sh script5_manifest_generator.sh
+     ``` chmod +x script1_system_identity.sh script2_python_inspector.sh script3_env_auditor.sh script4_log_analyzer.sh script5_manifest_generator.sh ```
 
 3. Run each script:
-
+```
   ./script1_system_identity.sh
   ./script2_python_inspector.sh
   ./script3_env_auditor.sh
   ./script4_log_analyzer.sh sample.log
   ./script4_log_analyzer.sh sample.log warning
   ./script5_manifest_generator.sh
+```
 
 ## Example Commands
-  # Create a sample log file
-  printf "info: started\nerror: failed to connect\nwarning: low memory\nerror: retry\n" > sample.log
+  ## Create a sample log file
+  ```printf "info: started\nerror: failed to connect\nwarning: low memory\nerror: retry\n" > sample.log```
 
-  # Analyze default keyword (error)
-  ./script4_log_analyzer.sh sample.log
+  ## Analyze default keyword (error)
+  ```./script4_log_analyzer.sh sample.log```
 
-  # Analyze custom keyword
-  ./script4_log_analyzer.sh sample.log warning
+  ## Analyze custom keyword
+  ```./script4_log_analyzer.sh sample.log warning```
