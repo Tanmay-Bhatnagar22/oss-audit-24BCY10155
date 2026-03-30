@@ -1,0 +1,4 @@
+Project Manifest
+----------------
+Tanmay from Open Source Software is working on the Python Environment Inspector project.
+The main goal of this project is: To build a Python environment inspection tool for analyzing dependencies and improving system reliability
