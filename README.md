@@ -1,6 +1,5 @@
 # Python Environment Inspector — Open Source Analysis & System Audit Toolkit
 
-## Description
 This project is an shell scripting toolkit focused on Python environment inspection and basic system auditing. It uses open-source Python tooling and Bash scripts to collect useful details from the system, inspect packages, audit directories, analyze logs, and generate a short project manifest.
 
 ## Student Details
@@ -41,11 +40,11 @@ This project is an shell scripting toolkit focused on Python environment inspect
 ```
 
 ## Example Commands
-  ## Create a sample log file
+  - Create a sample log file
   ```printf "info: started\nerror: failed to connect\nwarning: low memory\nerror: retry\n" > sample.log```
 
-  ## Analyze default keyword (error)
+  - Analyze default keyword (error)
   ```./script4_log_analyzer.sh sample.log```
 
-  ## Analyze custom keyword
+  - Analyze custom keyword
   ```./script4_log_analyzer.sh sample.log warning```
